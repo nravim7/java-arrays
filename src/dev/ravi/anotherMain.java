@@ -26,6 +26,24 @@ public class anotherMain {
         int[] smallArray = Arrays.copyOf(thirdArray, 5);
         System.out.println(Arrays.toString(smallArray));
 
+        int[] largerArray = Arrays.copyOf(thirdArray, 20);
+        System.out.println(Arrays.toString(largerArray));
+
+
+        String[] sArray = {"Ravi", "Able", "Mark", "John"};
+        Arrays.sort(sArray);
+        if (Arrays.binarySearch(sArray, "Mark") >= 0) {
+            System.out.println("Mark is found in the list");
+        }
+
+        int[] s1 = {1, 2, 3, 4, 5};
+        int[] s2 = {1, 2, 3, 4, 5, 0};
+        if (Arrays.equals(s1, s2)) {
+            System.out.println("Arrays are equal");
+        } else {
+            System.out.println("Arrays are not equal");
+        }
+
 
     }
 
