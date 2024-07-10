@@ -31,6 +31,7 @@ public class Main {
             System.out.print(newArray[i] + " ");
         }
 
+
         System.out.println();
 
         System.out.print("-".repeat(10));
